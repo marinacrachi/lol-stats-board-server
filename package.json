@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/marinacrachi/lol-stats-board-server/issues"
   },
-  "homepage": "https://github.com/marinacrachi/lol-stats-board-server#readme"
+  "homepage": "https://github.com/marinacrachi/lol-stats-board-server#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "express": "^4.18.2"
+  }
 }
