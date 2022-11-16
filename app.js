@@ -5,7 +5,7 @@ const port = 3001;
 
 const config = {
   headers: {
-    "X-Riot-Token": "RGAPI-77b6bd67-535f-4962-8cde-cd774706f522",
+    "X-Riot-Token": `${process.env.RIOT_API_KEY}`,
     "Content-Type": "application/json",
   },
 };
